@@ -1,6 +1,9 @@
 # Sysdig Agent Dynamic Sizing PoC
-A PoC to dynamically size the Sysdig Agent depending of the node flavor of the IKS cluster.
+A PoC to dynamically size the Sysdig Agent depending of the node flavor of the an IKS cluster.
 
+# Architecture
+
+![Agent auto-sizing Architecture](images/agent-auto-sizing-architecture.png)
 
 # Steps
 
