@@ -9,7 +9,8 @@ A PoC to dynamically size the Sysdig Agent depending of the node flavor of the I
 terraform init
 ```
 
-** Set configuration**
+**Set configuration**
+
 Modify the config/config.tfvars to your own values: 
 ```
 ibmcloud_api_key="<your_ibm_cloud_api_key>"

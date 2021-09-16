@@ -25,4 +25,10 @@ locals {
 
   cointerface = var.agent_sizing_strategy == local.static_sizing_strategy ? var.agent_setup[local.cluster_type].cointerface_limit: ceil(local.resource_limit_mem*var.cointerface_memory_percentage)
 
+  # calculate memory and cp u percent
+  resource_limit_cpu_percent = ceil(local.resource_limit_cpu / (local.node_cpu * 1000))
+  resource_limit_memory_percent = ceil(local.resource_limit_memory / (local.node_memory * 1024)) 
+  
+
+
 }
