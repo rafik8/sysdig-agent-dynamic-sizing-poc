@@ -22,7 +22,7 @@ resource_group="<your_resource_group>"
 region = "<your_region>"
 cluster_name = "<iks_cluster_name>"
 sysdig_agent_namespace = "<the_sysdig_agent_namespace>"
-# agent_sizing_strategy="dynamic"
+agent_sizing_strategy="< static or dynamic >"
 ```
 
 **Terraform plan**
